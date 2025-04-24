@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multicolored Layouts</title>
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            border-width: 2px;
+            border-color: black;
+            border-style: solid;
+            float: left;
+            margin: 10px;
+            margin: 20px;
+        }
+        .demo1{
+            background-color: red;
+        }  .demo3{
+            background: linear-gradient(90deg,red,orange);
+            border-radius: 30%;
+        }  .demo4{
+            background: linear-gradient(90deg,red,orange,green,blue,black);            
+            border-radius: 20px 80px 30px 50px ;
+        }  .demo5{
+            background: radial-gradient(red 20%,orange 40%);            
+            border-radius:0% 50% 0% 50% ;
+        }  .demo6{
+            background: radial-gradient(white,blue);
+            border-radius: 0% 75% 0% 75%;
+        }  .demo7{
+            background: repeating-linear-gradient(45deg,yellow 20%,orange 40%); 
+            border-radius: 0% 100% 0% 100%;
+        }  .demo8{
+            background: repeating-linear-gradient(black 20%,blue 50%);           
+            border-radius: 50% 50% 0% 0%;
+        }  .demo9{
+            background: repeating-linear-gradient(90deg,yellow 20%,red 40%);
+            border-radius: 0% 0% 50% 50%;
+        }  .demo10{
+            background: repeating-linear-gradient(yellow 20%,green 30%);
+            border-radius: 0% 50% 50% 50%;
+        }  .demo11{
+            /* background: repeating-radial-gradient(yellow 20%,green 30%); */
+            background: repeating-radial-gradient(white 20%,black 40%);
+
+            border-radius: 50%;
+        } 
+    </style>
+</head>
+<body>
+    <div class="demo1"></div>
+    <div class="demo3"></div>
+    <div class="demo4"></div>
+    <div class="demo5"></div>
+    <div class="demo6"></div>
+    <div class="demo7"></div>
+    <div class="demo8"></div>
+    <div class="demo9"></div>
+    <div class="demo10"></div>
+    <div class="demo11"></div>
+    
+</body>
+</html>

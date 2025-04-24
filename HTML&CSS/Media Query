@@ -1,0 +1,33 @@
+/* Media Query
+-----------
+1. Media query is mainly used to make web page responsive.
+2. We need to use @media key to implement media query in our website.
+3. we can make web page respponsive on various width and orientation.Here can be 360px,450px,540px,920px etc.and orientation includes portrait and landscape.
+4. syntax...
+@media screen / all / print / speech  and (max-width:360px / min-width:450px / orientation : portrait or landscape){
+    ........
+}
+
+or
+
+@media screen and (max-width:360px){
+    ........
+}
+
+or
+
+@media all and (max-width:360px){
+    ........
+}
+
+or
+
+@media print and (min-width:450px){
+    ........
+}
+
+or
+
+@media speech  and (max-width:360px){
+    ........
+} */
